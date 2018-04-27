@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="1 seconds" debug="true">  
+
+  	<!-- sends logs to logback-beagle -->
+  	<consolePlugin />
+  	
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">  
+        <resetJUL>true</resetJUL>  
+    </contextListener>  
+  
+    <jmxConfigurator />  
+    
+    <!-- 文件 -->
+    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">    
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"> 
+        	<!--     
+            <fileNamePattern>E:/workspace/spring-ecosystem-student/spring-mvc-student/logs/log.%d{yyyy-MM-dd}.log</fileNamePattern>    
+            -->
+            <fileNamePattern>F:/sdgs_gw_ws/spring-logback-demo/logs/log.%d{yyyy-MM-dd}.log</fileNamePattern>
+             
+            <maxHistory>30</maxHistory>    
+        </rollingPolicy>    
+        <encoder>    
+            <pattern>%-4relative %d{HH:mm:ss.SSS} - [%thread] %-5level %class - %msg%n</pattern>    
+        </encoder>    
+    </appender>   
+  	<!-- 控制台 -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">  
+        <encoder>  
+            <pattern>logbak: %d{HH:mm:ss.SSS} %logger{36} - %msg%n</pattern>  
+        </encoder>  
+    </appender>  
+  	
+  	<!-- 将日志写入数据库 
+    <appender name="DB-CLASSIC-MYSQL-POOL" class="ch.qos.logback.classic.db.DBAppender">  
+        <connectionSource class="ch.qos.logback.core.db.DataSourceConnectionSource">  
+            <dataSource class="org.apache.commons.dbcp.BasicDataSource">  
+                <driverClassName>com.mysql.jdbc.Driver</driverClassName>  
+                <url>jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8</url>  
+                <username>root</username>  
+                <password>root</password>  
+            </dataSource>  
+        </connectionSource>  
+    </appender> 
+    -->
+    <!-- 将org.springframework.web包下的类的日志级别设置为DEBUG，  我们开发Spring MVC经常出现和参数类型相关的4XX错误，设置此项我们可以看到更相信的信息 -->  
+    <logger name="org.springframework.web" level="DEBUG" />  
+      
+    <root level="debug">  
+        <appender-ref ref="console" />  
+        <appender-ref ref="file" />  
+        <!--  
+        <appender-ref ref="DB-CLASSIC-MYSQL-POOL" /> 
+        -->
+    </root> 
+     
+</configuration>  

@@ -1,0 +1,613 @@
+713  14:51:49.674 - [localhost-startStop-1] DEBUG ? - Initializing servlet 'dispatcher'
+945  14:51:49.906 - [localhost-startStop-1] DEBUG ? - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+946  14:51:49.907 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [servletContextInitParams] PropertySource with lowest search precedence
+954  14:51:49.915 - [localhost-startStop-1] DEBUG ? - Adding [jndiProperties] PropertySource with lowest search precedence
+957  14:51:49.918 - [localhost-startStop-1] DEBUG ? - Adding [systemProperties] PropertySource with lowest search precedence
+962  14:51:49.923 - [localhost-startStop-1] DEBUG ? - Adding [systemEnvironment] PropertySource with lowest search precedence
+962  14:51:49.923 - [localhost-startStop-1] DEBUG org.springframework.core.env.AbstractEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+963  14:51:49.924 - [localhost-startStop-1] INFO  org.springframework.web.servlet.FrameworkServlet - FrameworkServlet 'dispatcher': initialization started
+985  14:51:49.946 - [pool-1-thread-1] DEBUG ? - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+986  14:51:49.947 - [localhost-startStop-1] DEBUG ? - Adding [servletContextInitParams] PropertySource with lowest search precedence
+988  14:51:49.949 - [pool-1-thread-1] DEBUG ? - Adding [jndiProperties] PropertySource with lowest search precedence
+989  14:51:49.950 - [pool-1-thread-1] DEBUG ? - Adding [systemProperties] PropertySource with lowest search precedence
+992  14:51:49.953 - [pool-1-thread-1] DEBUG ? - Adding [systemEnvironment] PropertySource with lowest search precedence
+993  14:51:49.954 - [localhost-startStop-1] DEBUG ? - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+998  14:51:49.959 - [pool-1-thread-1] DEBUG ? - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+1000 14:51:49.961 - [localhost-startStop-1] DEBUG ? - Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+1000 14:51:49.961 - [localhost-startStop-1] INFO  org.springframework.context.support.AbstractApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 14:51:49 CST 2018]; root of context hierarchy
+1076 14:51:50.037 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+1080 14:51:50.041 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+1080 14:51:50.041 - [localhost-startStop-1] DEBUG org.springframework.core.env.AbstractEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+1143 14:51:50.104 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+1144 14:51:50.105 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+1144 14:51:50.105 - [localhost-startStop-1] DEBUG org.springframework.core.env.AbstractEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+1164 14:51:50.125 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+1171 14:51:50.132 - [localhost-startStop-1] INFO  org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Registering annotated classes: [class com.zhong.config.MvcConfig]
+1234 14:51:50.195 - [pool-1-thread-1] DEBUG ? - Bean factory for WebApplicationContext for namespace 'dispatcher-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@286c29e9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcConfig]; root of factory hierarchy
+1266 14:51:50.227 - [pool-1-thread-1] DEBUG ? - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@44f6df6]
+1273 14:51:50.234 - [localhost-startStop-1] DEBUG ? - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@1a92479b]
+1273 14:51:50.234 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@1a443a60]
+1274 14:51:50.235 - [pool-1-thread-1] DEBUG ? - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@5cf371c6]
+1289 14:51:50.250 - [localhost-startStop-1] DEBUG ? - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+1289 14:51:50.250 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+1312 14:51:50.273 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+1317 14:51:50.278 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+1359 14:51:50.320 - [pool-1-thread-1] DEBUG ? - Adding [systemProperties] PropertySource with lowest search precedence
+1361 14:51:50.322 - [pool-1-thread-1] DEBUG ? - Adding [systemEnvironment] PropertySource with lowest search precedence
+1362 14:51:50.323 - [pool-1-thread-1] DEBUG ? - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+1364 14:51:50.325 - [pool-1-thread-1] DEBUG ? - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+1378 14:51:50.339 - [pool-1-thread-1] DEBUG ? - Looking for matching resources in directory tree [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong]
+1384 14:51:50.345 - [pool-1-thread-1] DEBUG ? - Searching directory [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong] for files matching pattern [D:/apache-tomcat-8.5.3/webapps/spring-logback-demo/WEB-INF/classes/com/zhong/**/*.class]
+1388 14:51:50.349 - [pool-1-thread-1] DEBUG ? - Searching directory [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\config] for files matching pattern [D:/apache-tomcat-8.5.3/webapps/spring-logback-demo/WEB-INF/classes/com/zhong/**/*.class]
+1389 14:51:50.350 - [pool-1-thread-1] DEBUG ? - Searching directory [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\controller] for files matching pattern [D:/apache-tomcat-8.5.3/webapps/spring-logback-demo/WEB-INF/classes/com/zhong/**/*.class]
+1394 14:51:50.355 - [pool-1-thread-1] DEBUG ? - Resolved location pattern [classpath*:com/zhong/**/*.class] to resources [file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\config\MvcConfig.class], file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\config\package-info.class], file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\config\WebInitializer.class], file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\controller\HelloController.class], file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\controller\package-info.class]]
+1572 14:51:50.533 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\controller\HelloController.class]
+1679 14:51:50.640 - [pool-1-thread-1] DEBUG ? - Registered bean definition for imported @Configuration class org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration
+1683 14:51:50.644 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.handlerExceptionResolver()
+1687 14:51:50.648 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcValidator()
+1689 14:51:50.650 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcPathMatcher()
+1691 14:51:50.652 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUrlPathHelper()
+1697 14:51:50.658 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcViewResolver()
+1698 14:51:50.659 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerMapping()
+1701 14:51:50.662 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcContentNegotiationManager()
+1702 14:51:50.663 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.viewControllerHandlerMapping()
+1704 14:51:50.665 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.beanNameHandlerMapping()
+1707 14:51:50.668 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.resourceHandlerMapping()
+1709 14:51:50.670 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcResourceUrlProvider()
+1710 14:51:50.671 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.defaultServletHandlerMapping()
+1711 14:51:50.672 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerAdapter()
+1713 14:51:50.674 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcConversionService()
+1714 14:51:50.675 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUriComponentsContributor()
+1717 14:51:50.678 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.httpRequestHandlerAdapter()
+1718 14:51:50.679 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.simpleControllerHandlerAdapter()
+1719 14:51:50.680 - [pool-1-thread-1] DEBUG ? - Registering bean definition for @Bean method com.zhong.config.MvcConfig.viewResolver()
+1965 14:51:50.926 - [localhost-startStop-1] DEBUG ? - Successfully enhanced com.zhong.config.MvcConfig; enhanced class name is: com.zhong.config.MvcConfig$$EnhancerBySpringCGLIB$$67dcac47
+1966 14:51:50.927 - [localhost-startStop-1] DEBUG ? - Replacing bean definition 'mvcConfig' existing class name 'com.zhong.config.MvcConfig' with enhanced class name 'com.zhong.config.MvcConfig$$EnhancerBySpringCGLIB$$67dcac47'
+1997 14:51:50.958 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassEnhancer - Successfully enhanced org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; enhanced class name is: org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$6ce17b07
+1999 14:51:50.960 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassPostProcessor - Replacing bean definition 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' existing class name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' with enhanced class name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$6ce17b07'
+2023 14:51:50.984 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2023 14:51:50.984 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2028 14:51:50.989 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2028 14:51:50.989 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2029 14:51:50.990 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2029 14:51:50.990 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2030 14:51:50.991 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2031 14:51:50.992 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2031 14:51:50.992 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2031 14:51:50.992 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2035 14:51:50.996 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2035 14:51:50.996 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2036 14:51:50.997 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2036 14:51:50.997 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2036 14:51:50.997 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2036 14:51:50.997 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2037 14:51:50.998 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2037 14:51:50.998 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2037 14:51:50.998 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2037 14:51:50.998 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2045 14:51:51.006 - [localhost-startStop-1] DEBUG ? - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@42c979a4]
+2048 14:51:51.009 - [localhost-startStop-1] DEBUG org.springframework.context.support.AbstractApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@162b6202]
+2068 14:51:51.029 - [localhost-startStop-1] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@596543e2]
+2095 14:51:51.056 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@286c29e9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,helloController,org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration,handlerExceptionResolver,mvcValidator,mvcPathMatcher,mvcUrlPathHelper,mvcViewResolver,requestMappingHandlerMapping,mvcContentNegotiationManager,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,requestMappingHandlerAdapter,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,viewResolver]; root of factory hierarchy
+2095 14:51:51.056 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2095 14:51:51.056 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2096 14:51:51.057 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2096 14:51:51.057 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2096 14:51:51.057 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcConfig'
+2096 14:51:51.057 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcConfig'
+2115 14:51:51.076 - [localhost-startStop-1] DEBUG ? - Eagerly caching bean 'mvcConfig' to allow for resolving potential circular references
+2152 14:51:51.113 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'mvcConfig'
+2153 14:51:51.114 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2154 14:51:51.115 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2155 14:51:51.116 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'helloController'
+2156 14:51:51.117 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'helloController'
+2160 14:51:51.121 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'helloController' to allow for resolving potential circular references
+2168 14:51:51.129 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'helloController'
+2171 14:51:51.132 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2172 14:51:51.133 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2212 14:51:51.173 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata - Registered injected element on class [org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$6ce17b07]: AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2221 14:51:51.182 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' to allow for resolving potential circular references
+2222 14:51:51.183 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2232 14:51:51.193 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2232 14:51:51.193 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'handlerExceptionResolver'
+2233 14:51:51.194 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'handlerExceptionResolver'
+2236 14:51:51.197 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2879 14:51:51.840 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2880 14:51:51.841 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'mvcContentNegotiationManager'
+2881 14:51:51.842 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2894 14:51:51.855 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2906 14:51:51.867 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'mvcContentNegotiationManager'
+2989 14:51:51.950 - [localhost-startStop-1] DEBUG ? - Looking for exception mappings: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 14:51:49 CST 2018]; root of context hierarchy
+3044 14:51:52.005 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'handlerExceptionResolver' to allow for resolving potential circular references
+3053 14:51:52.014 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'handlerExceptionResolver'
+3054 14:51:52.015 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcValidator'
+3055 14:51:52.016 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcValidator'
+3055 14:51:52.016 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3060 14:51:52.021 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcValidator' to allow for resolving potential circular references
+3070 14:51:52.031 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'mvcValidator'
+3070 14:51:52.031 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcPathMatcher'
+3070 14:51:52.031 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcPathMatcher'
+3071 14:51:52.032 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3072 14:51:52.033 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+3080 14:51:52.041 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcPathMatcher'
+3080 14:51:52.041 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+3081 14:51:52.042 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcUrlPathHelper'
+3081 14:51:52.042 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3083 14:51:52.044 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+3094 14:51:52.055 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcUrlPathHelper'
+3094 14:51:52.055 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcViewResolver'
+3094 14:51:52.055 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcViewResolver'
+3095 14:51:52.056 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3101 14:51:52.062 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+3108 14:51:52.069 - [localhost-startStop-1] DEBUG ? - Eagerly caching bean 'mvcViewResolver' to allow for resolving potential circular references
+3121 14:51:52.082 - [pool-1-thread-1] DEBUG ? - Invoking afterPropertiesSet() on bean with name 'mvcViewResolver'
+3122 14:51:52.083 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'mvcViewResolver'
+3124 14:51:52.085 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+3125 14:51:52.086 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'requestMappingHandlerMapping'
+3126 14:51:52.087 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3144 14:51:52.105 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'mvcConversionService'
+3147 14:51:52.108 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'mvcConversionService'
+3148 14:51:52.109 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3322 14:51:52.283 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'mvcConversionService' to allow for resolving potential circular references
+3364 14:51:52.325 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcConversionService'
+3371 14:51:52.332 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+3372 14:51:52.333 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcResourceUrlProvider'
+3372 14:51:52.333 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3375 14:51:52.336 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+3395 14:51:52.356 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcResourceUrlProvider'
+3396 14:51:52.357 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+3412 14:51:52.373 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
+3490 14:51:52.451 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
+3493 14:51:52.454 - [pool-1-thread-1] DEBUG ? - Looking for request mappings in application context: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 14:51:49 CST 2018]; root of context hierarchy
+3531 14:51:52.492 - [localhost-startStop-1] INFO  ? - Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.zhong.controller.HelloController.hello()
+3532 14:51:52.493 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'requestMappingHandlerMapping'
+3532 14:51:52.493 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+3533 14:51:52.494 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+3533 14:51:52.494 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'viewControllerHandlerMapping'
+3533 14:51:52.494 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3535 14:51:52.496 - [localhost-startStop-1] DEBUG ? - Returning cached instance of singleton bean 'mvcPathMatcher'
+3536 14:51:52.497 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+3538 14:51:52.499 - [localhost-startStop-1] DEBUG ? - Eagerly caching bean 'viewControllerHandlerMapping' to allow for resolving potential circular references
+3552 14:51:52.513 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'viewControllerHandlerMapping'
+3554 14:51:52.515 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+3554 14:51:52.515 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'beanNameHandlerMapping'
+3554 14:51:52.515 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3556 14:51:52.517 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'beanNameHandlerMapping' to allow for resolving potential circular references
+3587 14:51:52.548 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Looking for URL mappings in application context: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 14:51:49 CST 2018]; root of context hierarchy
+3590 14:51:52.551 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+3590 14:51:52.551 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+3590 14:51:52.551 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+3591 14:51:52.552 - [localhost-startStop-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+3591 14:51:52.552 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcConfig': no URL paths identified
+3591 14:51:52.552 - [localhost-startStop-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+3591 14:51:52.552 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+3592 14:51:52.553 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'helloController': no URL paths identified
+3593 14:51:52.554 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': no URL paths identified
+3593 14:51:52.554 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'handlerExceptionResolver': no URL paths identified
+3593 14:51:52.554 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcValidator': no URL paths identified
+3593 14:51:52.554 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcPathMatcher': no URL paths identified
+3594 14:51:52.555 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+3594 14:51:52.555 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcViewResolver': no URL paths identified
+3594 14:51:52.555 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+3594 14:51:52.555 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+3601 14:51:52.562 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+3602 14:51:52.563 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+3602 14:51:52.563 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'resourceHandlerMapping': no URL paths identified
+3602 14:51:52.563 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+3602 14:51:52.563 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+3603 14:51:52.564 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+3605 14:51:52.566 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcConversionService': no URL paths identified
+3606 14:51:52.567 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+3606 14:51:52.567 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+3606 14:51:52.567 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+3606 14:51:52.567 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'viewResolver': no URL paths identified
+3607 14:51:52.568 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'environment': no URL paths identified
+3607 14:51:52.568 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'systemProperties': no URL paths identified
+3607 14:51:52.568 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'systemEnvironment': no URL paths identified
+3607 14:51:52.568 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'servletContext': no URL paths identified
+3607 14:51:52.568 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'servletConfig': no URL paths identified
+3608 14:51:52.569 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'contextParameters': no URL paths identified
+3608 14:51:52.569 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'contextAttributes': no URL paths identified
+3608 14:51:52.569 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+3608 14:51:52.569 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'messageSource': no URL paths identified
+3609 14:51:52.570 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+3609 14:51:52.570 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'beanNameHandlerMapping'
+3609 14:51:52.570 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'resourceHandlerMapping'
+3609 14:51:52.570 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'resourceHandlerMapping'
+3610 14:51:52.571 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3611 14:51:52.572 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'resourceHandlerMapping' to allow for resolving potential circular references
+3612 14:51:52.573 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'resourceHandlerMapping'
+3613 14:51:52.574 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+3613 14:51:52.574 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+3613 14:51:52.574 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'defaultServletHandlerMapping'
+3613 14:51:52.574 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3615 14:51:52.576 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'defaultServletHandlerMapping' to allow for resolving potential circular references
+3624 14:51:52.585 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'defaultServletHandlerMapping'
+3624 14:51:52.585 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+3625 14:51:52.586 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'requestMappingHandlerAdapter'
+3625 14:51:52.586 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3668 14:51:52.629 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+3669 14:51:52.630 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcConversionService'
+3670 14:51:52.631 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcValidator'
+3679 14:51:52.640 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'requestMappingHandlerAdapter' to allow for resolving potential circular references
+3728 14:51:52.689 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerAdapter'
+3729 14:51:52.690 - [localhost-startStop-1] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 14:51:49 CST 2018]; root of context hierarchy
+3780 14:51:52.741 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'requestMappingHandlerAdapter'
+3782 14:51:52.743 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcConversionService'
+3785 14:51:52.746 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+3786 14:51:52.747 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'mvcUriComponentsContributor'
+3786 14:51:52.747 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3788 14:51:52.749 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+3792 14:51:52.753 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcConversionService'
+3821 14:51:52.782 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+3841 14:51:52.802 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'mvcUriComponentsContributor'
+3842 14:51:52.803 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+3843 14:51:52.804 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'httpRequestHandlerAdapter'
+3844 14:51:52.805 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3850 14:51:52.811 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'httpRequestHandlerAdapter' to allow for resolving potential circular references
+3858 14:51:52.819 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'httpRequestHandlerAdapter'
+3858 14:51:52.819 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+3860 14:51:52.821 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'simpleControllerHandlerAdapter'
+3861 14:51:52.822 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3862 14:51:52.823 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'simpleControllerHandlerAdapter' to allow for resolving potential circular references
+3876 14:51:52.837 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'simpleControllerHandlerAdapter'
+3876 14:51:52.837 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'viewResolver'
+3877 14:51:52.838 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'viewResolver'
+3877 14:51:52.838 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcConfig'
+3912 14:51:52.873 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
+3944 14:51:52.905 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'viewResolver'
+3949 14:51:52.910 - [localhost-startStop-1] DEBUG org.springframework.context.support.AbstractApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@ec9aa4a]
+3950 14:51:52.911 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+3952 14:51:52.913 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+3954 14:51:52.915 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+3957 14:51:52.918 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+3971 14:51:52.932 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+3971 14:51:52.932 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@22b45d9d]
+3975 14:51:52.936 - [localhost-startStop-1] DEBUG ? - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+3989 14:51:52.950 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+3990 14:51:52.951 - [pool-1-thread-1] DEBUG ? - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@56f3e2a]
+3991 14:51:52.952 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+3992 14:51:52.953 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+3993 14:51:52.954 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+3993 14:51:52.954 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'resourceHandlerMapping'
+3994 14:51:52.955 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+3995 14:51:52.956 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+3996 14:51:52.957 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+3996 14:51:52.957 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+3997 14:51:52.958 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'handlerExceptionResolver'
+4000 14:51:52.961 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+4011 14:51:52.972 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+4012 14:51:52.973 - [pool-1-thread-1] DEBUG ? - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@72cadc37]
+4013 14:51:52.974 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcViewResolver'
+4014 14:51:52.975 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'viewResolver'
+4021 14:51:52.982 - [localhost-startStop-1] DEBUG ? - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+4041 14:51:53.002 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+4041 14:51:53.002 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@126cbf86]
+4041 14:51:53.002 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.resource.ResourceUrlProvider - Looking for resource handler mappings
+4042 14:51:53.003 - [localhost-startStop-1] DEBUG ? - No resource handling mappings found
+4045 14:51:53.006 - [pool-1-thread-1] DEBUG ? - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+4047 14:51:53.008 - [pool-1-thread-1] DEBUG ? - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+4049 14:51:53.010 - [pool-1-thread-1] DEBUG ? - Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+4050 14:51:53.011 - [pool-1-thread-1] DEBUG ? - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+4052 14:51:53.013 - [pool-1-thread-1] DEBUG ? - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+4053 14:51:53.014 - [pool-1-thread-1] DEBUG ? - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+4055 14:51:53.016 - [pool-1-thread-1] DEBUG ? - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+4055 14:51:53.016 - [pool-1-thread-1] DEBUG ? - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+4057 14:51:53.018 - [pool-1-thread-1] DEBUG ? - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+4058 14:51:53.019 - [pool-1-thread-1] DEBUG ? - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+4059 14:51:53.020 - [pool-1-thread-1] DEBUG ? - Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+4060 14:51:53.021 - [pool-1-thread-1] INFO  ? - FrameworkServlet 'dispatcher': initialization completed in 3096 ms
+4060 14:51:53.021 - [pool-1-thread-1] DEBUG ? - Servlet 'dispatcher' configured successfully
+722389 15:03:51.350 - [pool-1-thread-1] INFO  ? - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 14:51:49 CST 2018]; root of context hierarchy
+722392 15:03:51.353 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'lifecycleProcessor'
+722393 15:03:51.354 - [pool-1-thread-1] DEBUG ? - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@286c29e9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,helloController,org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration,handlerExceptionResolver,mvcValidator,mvcPathMatcher,mvcUrlPathHelper,mvcViewResolver,requestMappingHandlerMapping,mvcContentNegotiationManager,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,requestMappingHandlerAdapter,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,viewResolver]; root of factory hierarchy
+641  15:06:08.351 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.HttpServletBean - Initializing servlet 'dispatcher'
+886  15:06:08.596 - [localhost-startStop-1] DEBUG ? - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+887  15:06:08.597 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [servletContextInitParams] PropertySource with lowest search precedence
+898  15:06:08.608 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [jndiProperties] PropertySource with lowest search precedence
+899  15:06:08.609 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+910  15:06:08.620 - [localhost-startStop-1] DEBUG ? - Adding [systemEnvironment] PropertySource with lowest search precedence
+910  15:06:08.620 - [localhost-startStop-1] DEBUG org.springframework.core.env.AbstractEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+911  15:06:08.621 - [localhost-startStop-1] INFO  ? - FrameworkServlet 'dispatcher': initialization started
+933  15:06:08.643 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+933  15:06:08.643 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [servletContextInitParams] PropertySource with lowest search precedence
+934  15:06:08.644 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [jndiProperties] PropertySource with lowest search precedence
+934  15:06:08.644 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+935  15:06:08.645 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+936  15:06:08.646 - [localhost-startStop-1] DEBUG org.springframework.core.env.AbstractEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+939  15:06:08.649 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+940  15:06:08.650 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+943  15:06:08.653 - [localhost-startStop-1] INFO  org.springframework.context.support.AbstractApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 15:06:08 CST 2018]; root of context hierarchy
+1019 15:06:08.729 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+1020 15:06:08.730 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+1020 15:06:08.730 - [localhost-startStop-1] DEBUG org.springframework.core.env.AbstractEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+1081 15:06:08.791 - [localhost-startStop-1] DEBUG ? - Adding [systemProperties] PropertySource with lowest search precedence
+1082 15:06:08.792 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+1082 15:06:08.792 - [localhost-startStop-1] DEBUG ? - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+1102 15:06:08.812 - [localhost-startStop-1] DEBUG ? - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+1106 15:06:08.816 - [localhost-startStop-1] INFO  ? - Registering annotated classes: [class com.zhong.config.MvcConfig]
+1169 15:06:08.879 - [localhost-startStop-1] DEBUG ? - Bean factory for WebApplicationContext for namespace 'dispatcher-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@1e62bdba: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcConfig]; root of factory hierarchy
+1199 15:06:08.909 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@59ebdbdd]
+1201 15:06:08.911 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@3d274050]
+1202 15:06:08.912 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@515d3918]
+1203 15:06:08.913 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@7cb9075a]
+1216 15:06:08.926 - [localhost-startStop-1] DEBUG ? - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+1217 15:06:08.927 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+1242 15:06:08.952 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+1253 15:06:08.963 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+1294 15:06:09.004 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemProperties] PropertySource with lowest search precedence
+1295 15:06:09.005 - [localhost-startStop-1] DEBUG org.springframework.core.env.MutablePropertySources - Adding [systemEnvironment] PropertySource with lowest search precedence
+1296 15:06:09.006 - [localhost-startStop-1] DEBUG org.springframework.core.env.AbstractEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+1297 15:06:09.007 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+1311 15:06:09.021 - [localhost-startStop-1] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong]
+1311 15:06:09.021 - [localhost-startStop-1] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong] for files matching pattern [D:/apache-tomcat-8.5.3/webapps/spring-logback-demo/WEB-INF/classes/com/zhong/**/*.class]
+1317 15:06:09.027 - [localhost-startStop-1] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\config] for files matching pattern [D:/apache-tomcat-8.5.3/webapps/spring-logback-demo/WEB-INF/classes/com/zhong/**/*.class]
+1318 15:06:09.028 - [localhost-startStop-1] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\controller] for files matching pattern [D:/apache-tomcat-8.5.3/webapps/spring-logback-demo/WEB-INF/classes/com/zhong/**/*.class]
+1449 15:06:09.159 - [localhost-startStop-1] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/zhong/**/*.class] to resources [file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\config\MvcConfig.class], file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\config\package-info.class], file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\config\WebInitializer.class], file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\controller\HelloController.class], file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\controller\package-info.class]]
+1501 15:06:09.211 - [localhost-startStop-1] DEBUG ? - Identified candidate component class: file [D:\apache-tomcat-8.5.3\webapps\spring-logback-demo\WEB-INF\classes\com\zhong\controller\HelloController.class]
+1609 15:06:09.319 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported @Configuration class org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration
+1612 15:06:09.322 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcValidator()
+1613 15:06:09.323 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcPathMatcher()
+1613 15:06:09.323 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUrlPathHelper()
+1619 15:06:09.329 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcViewResolver()
+1620 15:06:09.330 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerMapping()
+1620 15:06:09.330 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcContentNegotiationManager()
+1621 15:06:09.331 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.viewControllerHandlerMapping()
+1622 15:06:09.332 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.beanNameHandlerMapping()
+1622 15:06:09.332 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.resourceHandlerMapping()
+1623 15:06:09.333 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcResourceUrlProvider()
+1623 15:06:09.333 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.defaultServletHandlerMapping()
+1624 15:06:09.334 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerAdapter()
+1624 15:06:09.334 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcConversionService()
+1625 15:06:09.335 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUriComponentsContributor()
+1626 15:06:09.336 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.httpRequestHandlerAdapter()
+1627 15:06:09.337 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.simpleControllerHandlerAdapter()
+1628 15:06:09.338 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.handlerExceptionResolver()
+1628 15:06:09.338 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method com.zhong.config.MvcConfig.viewResolver()
+1824 15:06:09.534 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassEnhancer - Successfully enhanced com.zhong.config.MvcConfig; enhanced class name is: com.zhong.config.MvcConfig$$EnhancerBySpringCGLIB$$44f4ab8c
+1824 15:06:09.534 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassPostProcessor - Replacing bean definition 'mvcConfig' existing class name 'com.zhong.config.MvcConfig' with enhanced class name 'com.zhong.config.MvcConfig$$EnhancerBySpringCGLIB$$44f4ab8c'
+1851 15:06:09.561 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassEnhancer - Successfully enhanced org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; enhanced class name is: org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$49f97a4c
+1851 15:06:09.561 - [localhost-startStop-1] DEBUG org.springframework.context.annotation.ConfigurationClassPostProcessor - Replacing bean definition 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' existing class name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' with enhanced class name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$49f97a4c'
+1866 15:06:09.576 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+1866 15:06:09.576 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+1869 15:06:09.579 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+1870 15:06:09.580 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+1870 15:06:09.580 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+1870 15:06:09.580 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+1872 15:06:09.582 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+1872 15:06:09.582 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+1872 15:06:09.582 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+1872 15:06:09.582 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+1876 15:06:09.586 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+1877 15:06:09.587 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+1877 15:06:09.587 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+1877 15:06:09.587 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+1878 15:06:09.588 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+1878 15:06:09.588 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+1878 15:06:09.588 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+1879 15:06:09.589 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+1879 15:06:09.589 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+1879 15:06:09.589 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+1885 15:06:09.595 - [localhost-startStop-1] DEBUG ? - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7097c9fe]
+1892 15:06:09.602 - [pool-1-thread-1] DEBUG ? - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@412d380]
+1897 15:06:09.607 - [pool-1-thread-1] DEBUG ? - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@3d9b68d0]
+1933 15:06:09.643 - [pool-1-thread-1] DEBUG ? - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e62bdba: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,helloController,org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration,mvcValidator,mvcPathMatcher,mvcUrlPathHelper,mvcViewResolver,requestMappingHandlerMapping,mvcContentNegotiationManager,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,requestMappingHandlerAdapter,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,viewResolver]; root of factory hierarchy
+1934 15:06:09.644 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+1935 15:06:09.645 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+1936 15:06:09.646 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+1937 15:06:09.647 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+1937 15:06:09.647 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'mvcConfig'
+1942 15:06:09.652 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'mvcConfig'
+1954 15:06:09.664 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcConfig' to allow for resolving potential circular references
+1998 15:06:09.708 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcConfig'
+1999 15:06:09.709 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+1999 15:06:09.709 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+1999 15:06:09.709 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'helloController'
+1999 15:06:09.709 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'helloController'
+2004 15:06:09.714 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'helloController' to allow for resolving potential circular references
+2010 15:06:09.720 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'helloController'
+2010 15:06:09.720 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2011 15:06:09.721 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2059 15:06:09.769 - [pool-1-thread-1] DEBUG ? - Registered injected element on class [org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$49f97a4c]: AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2061 15:06:09.771 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' to allow for resolving potential circular references
+2064 15:06:09.774 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2082 15:06:09.792 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2083 15:06:09.793 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'mvcValidator'
+2083 15:06:09.793 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'mvcValidator'
+2087 15:06:09.797 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2175 15:06:09.885 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcValidator' to allow for resolving potential circular references
+2182 15:06:09.892 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcValidator'
+2182 15:06:09.892 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcPathMatcher'
+2182 15:06:09.892 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcPathMatcher'
+2183 15:06:09.893 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2184 15:06:09.894 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+2206 15:06:09.916 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcPathMatcher'
+2206 15:06:09.916 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2206 15:06:09.916 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcUrlPathHelper'
+2207 15:06:09.917 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2208 15:06:09.918 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+2220 15:06:09.930 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcUrlPathHelper'
+2220 15:06:09.930 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcViewResolver'
+2220 15:06:09.930 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcViewResolver'
+2221 15:06:09.931 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2227 15:06:09.937 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2228 15:06:09.938 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcContentNegotiationManager'
+2228 15:06:09.938 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2283 15:06:09.993 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2293 15:06:10.003 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcContentNegotiationManager'
+2316 15:06:10.026 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcViewResolver' to allow for resolving potential circular references
+2326 15:06:10.036 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Invoking afterPropertiesSet() on bean with name 'mvcViewResolver'
+2327 15:06:10.037 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcViewResolver'
+2327 15:06:10.037 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2327 15:06:10.037 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'requestMappingHandlerMapping'
+2328 15:06:10.038 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2349 15:06:10.059 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'mvcConversionService'
+2350 15:06:10.060 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'mvcConversionService'
+2351 15:06:10.061 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2515 15:06:10.225 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'mvcConversionService' to allow for resolving potential circular references
+2626 15:06:10.336 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'mvcConversionService'
+2630 15:06:10.340 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2630 15:06:10.340 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'mvcResourceUrlProvider'
+2631 15:06:10.341 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2641 15:06:10.351 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+2656 15:06:10.366 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'mvcResourceUrlProvider'
+2657 15:06:10.367 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2671 15:06:10.381 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
+2722 15:06:10.432 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
+2723 15:06:10.433 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - Looking for request mappings in application context: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 15:06:08 CST 2018]; root of context hierarchy
+2752 15:06:10.462 - [pool-1-thread-1] INFO  ? - Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.zhong.controller.HelloController.hello()
+2758 15:06:10.468 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'requestMappingHandlerMapping'
+2759 15:06:10.469 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2759 15:06:10.469 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2761 15:06:10.471 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'viewControllerHandlerMapping'
+2764 15:06:10.474 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2770 15:06:10.480 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcPathMatcher'
+2770 15:06:10.480 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2771 15:06:10.481 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'viewControllerHandlerMapping' to allow for resolving potential circular references
+2786 15:06:10.496 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'viewControllerHandlerMapping'
+2786 15:06:10.496 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2786 15:06:10.496 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'beanNameHandlerMapping'
+2786 15:06:10.496 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2791 15:06:10.501 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'beanNameHandlerMapping' to allow for resolving potential circular references
+2832 15:06:10.542 - [pool-1-thread-1] DEBUG ? - Looking for URL mappings in application context: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 15:06:08 CST 2018]; root of context hierarchy
+2834 15:06:10.544 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2836 15:06:10.546 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2837 15:06:10.547 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2838 15:06:10.548 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2839 15:06:10.549 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcConfig': no URL paths identified
+2840 15:06:10.550 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2845 15:06:10.555 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+2845 15:06:10.555 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'helloController': no URL paths identified
+2846 15:06:10.556 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': no URL paths identified
+2847 15:06:10.557 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcValidator': no URL paths identified
+2847 15:06:10.557 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcPathMatcher': no URL paths identified
+2848 15:06:10.558 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2849 15:06:10.559 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcViewResolver': no URL paths identified
+2850 15:06:10.560 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2851 15:06:10.561 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2852 15:06:10.562 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2852 15:06:10.562 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2853 15:06:10.563 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2854 15:06:10.564 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2855 15:06:10.565 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2855 15:06:10.565 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2856 15:06:10.566 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcConversionService': no URL paths identified
+2856 15:06:10.566 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2867 15:06:10.577 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2868 15:06:10.578 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2869 15:06:10.579 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2869 15:06:10.579 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'viewResolver': no URL paths identified
+2870 15:06:10.580 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'environment': no URL paths identified
+2871 15:06:10.581 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'systemProperties': no URL paths identified
+2871 15:06:10.581 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'systemEnvironment': no URL paths identified
+2872 15:06:10.582 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'servletContext': no URL paths identified
+2875 15:06:10.585 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'servletConfig': no URL paths identified
+2877 15:06:10.587 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'contextParameters': no URL paths identified
+2877 15:06:10.587 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'contextAttributes': no URL paths identified
+2878 15:06:10.588 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2882 15:06:10.592 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'messageSource': no URL paths identified
+2882 15:06:10.592 - [pool-1-thread-1] DEBUG ? - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2885 15:06:10.595 - [pool-1-thread-1] DEBUG ? - Finished creating instance of bean 'beanNameHandlerMapping'
+2887 15:06:10.597 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'resourceHandlerMapping'
+2889 15:06:10.599 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'resourceHandlerMapping'
+2890 15:06:10.600 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2894 15:06:10.604 - [pool-1-thread-1] DEBUG ? - Eagerly caching bean 'resourceHandlerMapping' to allow for resolving potential circular references
+2895 15:06:10.605 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'resourceHandlerMapping'
+2895 15:06:10.605 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+2896 15:06:10.606 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2896 15:06:10.606 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'defaultServletHandlerMapping'
+2896 15:06:10.606 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2897 15:06:10.607 - [localhost-startStop-1] DEBUG ? - Eagerly caching bean 'defaultServletHandlerMapping' to allow for resolving potential circular references
+2898 15:06:10.608 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'defaultServletHandlerMapping'
+2898 15:06:10.608 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2899 15:06:10.609 - [localhost-startStop-1] DEBUG ? - Creating instance of bean 'requestMappingHandlerAdapter'
+2899 15:06:10.609 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3484 15:06:11.194 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+3559 15:06:11.269 - [localhost-startStop-1] DEBUG ? - Returning cached instance of singleton bean 'mvcConversionService'
+3559 15:06:11.269 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcValidator'
+3576 15:06:11.286 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'requestMappingHandlerAdapter' to allow for resolving potential circular references
+3623 15:06:11.333 - [localhost-startStop-1] DEBUG ? - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerAdapter'
+3624 15:06:11.334 - [localhost-startStop-1] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 15:06:08 CST 2018]; root of context hierarchy
+3712 15:06:11.422 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'requestMappingHandlerAdapter'
+3712 15:06:11.422 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+3712 15:06:11.422 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+3712 15:06:11.422 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'mvcUriComponentsContributor'
+3712 15:06:11.422 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3713 15:06:11.423 - [localhost-startStop-1] DEBUG ? - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+3715 15:06:11.425 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+3720 15:06:11.430 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+3730 15:06:11.440 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'mvcUriComponentsContributor'
+3731 15:06:11.441 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+3731 15:06:11.441 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'httpRequestHandlerAdapter'
+3733 15:06:11.443 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3734 15:06:11.444 - [localhost-startStop-1] DEBUG ? - Eagerly caching bean 'httpRequestHandlerAdapter' to allow for resolving potential circular references
+3741 15:06:11.451 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'httpRequestHandlerAdapter'
+3741 15:06:11.451 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+3742 15:06:11.452 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'simpleControllerHandlerAdapter'
+3743 15:06:11.453 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3745 15:06:11.455 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'simpleControllerHandlerAdapter' to allow for resolving potential circular references
+3756 15:06:11.466 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'simpleControllerHandlerAdapter'
+3757 15:06:11.467 - [pool-1-thread-1] DEBUG ? - Creating shared instance of singleton bean 'handlerExceptionResolver'
+3758 15:06:11.468 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'handlerExceptionResolver'
+3758 15:06:11.468 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+3777 15:06:11.487 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+3778 15:06:11.488 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 27 15:06:08 CST 2018]; root of context hierarchy
+3785 15:06:11.495 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Eagerly caching bean 'handlerExceptionResolver' to allow for resolving potential circular references
+3803 15:06:11.513 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'handlerExceptionResolver'
+3803 15:06:11.513 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry - Creating shared instance of singleton bean 'viewResolver'
+3803 15:06:11.513 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Creating instance of bean 'viewResolver'
+3803 15:06:11.513 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcConfig'
+3835 15:06:11.545 - [localhost-startStop-1] DEBUG ? - Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
+3861 15:06:11.571 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'viewResolver'
+3863 15:06:11.573 - [localhost-startStop-1] DEBUG ? - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@458acc6b]
+3865 15:06:11.575 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'lifecycleProcessor'
+3869 15:06:11.579 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+3874 15:06:11.584 - [localhost-startStop-1] DEBUG ? - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+3876 15:06:11.586 - [localhost-startStop-1] DEBUG ? - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+3883 15:06:11.593 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+3883 15:06:11.593 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@2ff56459]
+3888 15:06:11.598 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+3913 15:06:11.623 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+3914 15:06:11.624 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@28856741]
+3914 15:06:11.624 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+3914 15:06:11.624 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+3914 15:06:11.624 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+3915 15:06:11.625 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'resourceHandlerMapping'
+3915 15:06:11.625 - [localhost-startStop-1] DEBUG ? - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+3915 15:06:11.625 - [localhost-startStop-1] DEBUG ? - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+3916 15:06:11.626 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+3916 15:06:11.626 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+3917 15:06:11.627 - [pool-1-thread-1] DEBUG ? - Returning cached instance of singleton bean 'handlerExceptionResolver'
+3920 15:06:11.630 - [pool-1-thread-1] DEBUG ? - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+3930 15:06:11.640 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+3931 15:06:11.641 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@55728a41]
+3931 15:06:11.641 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'mvcViewResolver'
+3931 15:06:11.641 - [localhost-startStop-1] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'viewResolver'
+3936 15:06:11.646 - [localhost-startStop-1] DEBUG ? - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+3954 15:06:11.664 - [localhost-startStop-1] DEBUG ? - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+3955 15:06:11.665 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@774034e0]
+3955 15:06:11.665 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.resource.ResourceUrlProvider - Looking for resource handler mappings
+3955 15:06:11.665 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.resource.ResourceUrlProvider - No resource handling mappings found
+3958 15:06:11.668 - [localhost-startStop-1] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+3959 15:06:11.669 - [localhost-startStop-1] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+3959 15:06:11.669 - [localhost-startStop-1] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+3959 15:06:11.669 - [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+3961 15:06:11.671 - [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorSupport - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+3961 15:06:11.671 - [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+3961 15:06:11.671 - [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+3962 15:06:11.672 - [localhost-startStop-1] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+3963 15:06:11.673 - [localhost-startStop-1] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+3963 15:06:11.673 - [localhost-startStop-1] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+3963 15:06:11.673 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.FrameworkServlet - Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+3963 15:06:11.673 - [localhost-startStop-1] INFO  org.springframework.web.servlet.FrameworkServlet - FrameworkServlet 'dispatcher': initialization completed in 3052 ms
+3964 15:06:11.674 - [localhost-startStop-1] DEBUG org.springframework.web.servlet.HttpServletBean - Servlet 'dispatcher' configured successfully
+25357 15:06:33.067 - [http-nio-18080-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcher' processing GET request for [/spring-logback-demo/index]
+25360 15:06:33.070 - [http-nio-18080-exec-9] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - Looking up handler method for path /index
+25366 15:06:33.076 - [http-nio-18080-exec-9] DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping - Returning handler method [public java.lang.String com.zhong.controller.HelloController.hello()]
+25367 15:06:33.077 - [http-nio-18080-exec-9] DEBUG org.springframework.beans.factory.support.AbstractBeanFactory - Returning cached instance of singleton bean 'helloController'
+25368 15:06:33.078 - [http-nio-18080-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/spring-logback-demo/index] is: -1
+25402 15:06:33.112 - [pool-1-thread-1] DEBUG ? - this is test 
+25422 15:06:33.132 - [pool-1-thread-1] DEBUG ? - Invoking afterPropertiesSet() on bean with name 'index'
+25423 15:06:33.133 - [pool-1-thread-1] DEBUG ? - Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/classes/views/index.jsp]] in DispatcherServlet with name 'dispatcher'
+25435 15:06:33.145 - [pool-1-thread-1] DEBUG ? - Forwarding to resource [/WEB-INF/classes/views/index.jsp] in InternalResourceView 'index'
+25475 15:06:33.185 - [http-nio-18080-exec-9] DEBUG ? - Successfully completed request
